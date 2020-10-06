@@ -1,24 +1,20 @@
 ---
-layout: default
+layout: home
+title: Children's Song Dataset for Singing Voice Research
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Overview
+<p align="justify">
+We introduce the Children's Song Dataset (CSD) which contains vocal recordings of 100 children's songs in Korean or English. The audio recordings are precisely aligned with the MIDI transcriptions and lyrics annotations and so we expect that the dataset can be useful for various singing voice analysis and synthesis tasks. 
+</p>
 
-[Link to another page](./another-page.html).
+## Dataset Contents
+<p align="justify">
+The dataset is composed of 50 Korean and 50 English songs sung by a Korean female professional pop singer. Each song is recorded in two separate keys, ranging from 3 to 5 semitones, resulting in a total of 200 audio recordings. We collected the children's songs to avoid the possible copyright issues in commercial pop music. 25 songs are recorded in both Korean and English.
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Each audio recording is paired with a MIDI transcription file and a lyrics annotation file.  
+We annotated the note onset and duration with consistent guide line throught various expressions.
+</p>
 
 ### Header 3
 
