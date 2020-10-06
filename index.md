@@ -66,8 +66,9 @@ The dataset is composed of 50 Korean and 50 English songs sung by a Korean femal
 ## MIDI and Lyric Annotation
 <p align="justify">
 The MIDI data consists of monophonic notes. Each note contains onset and offset times which were manually fine-tuned along with the corresponding syllable. We annotated the note onset and duration with consistent guide lines throught various expressions without any expression data or control change messages.
+</p>
 
-
+<p align="justify">
 Lyrics are annotated in grapheme level with a plain text format. Each syllable matches with one note and when a syllable corresponds to multiple notes, it is replicated.
 </p>
 
