@@ -31,108 +31,50 @@ We introduce the Children's Song Dataset (CSD) which contains vocal recordings o
 <p align="justify">
 The dataset is composed of 50 Korean and 50 English songs sung by a Korean female professional pop singer. Each song is recorded in two separate keys, ranging from 3 to 5 semitones, resulting in a total of 200 audio recordings. We collected the children's songs to avoid the possible copyright issues in commercial pop music. 25 songs are recorded in both Korean and English.
 
-Each audio recording is paired with a MIDI transcription file and a lyrics annotation file.  
-We annotated the note onset and duration with consistent guide line throught various expressions.
+Each audio recording is paired with a MIDI transcription file and a lyrics annotation file. We annotated the note onset and duration with consistent guide lines throught various expressions.
 </p>
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+## MIDI and Lyric Annotation
 
 
-### Definition lists can be used with HTML syntax.
+## Samples
+CSD dataset is recorded in both English and Korean. Some songs are recorded in both Korean and English and they have same meanings. Those samples are shown as below.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+<table>
+    <tr>
+        <th> Song </th>
+        <th> Enlish </th>
+        <th> Korean </th>
+    </tr>
+    <tr>
+        <th> Twinkle Twinkle <br> Little Star <br> 작은 별 </th> 
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/little_star_en.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/little_star_kr.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> Bingo <br> 빙고 </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/bingo_en.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/bingo_kr.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> Rudolph the Red <br> Nosed Reindeer <br> 루돌프 </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/rudolph_en.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/rudolph_kr.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> O Holy Night <br> 오 거룩한 밤 </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/holynight_en.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/holynight_kr.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> White Christmas <br> 화이트 크리스마스 </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/white_xmas_en.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/white_xmas_kr.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> Butterfly <br> 나비야 </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/butterfly_en.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/butterfly_kr.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+</table>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
