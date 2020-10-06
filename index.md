@@ -3,26 +3,6 @@ title: "CSD: Children's Song Dataset for Singing Voice Research"
 description: Music and Audio Computing Lab, KAIST
 ---
 
-<script>
-function pauseOthers(ele) {
-    $("audio").not(ele).each(function (index, audio) {audio.pause();});
-}
-</script>
-
-<style>
-.main-content table {
-    display: inline-table;
-}
-table {
-    table-layout:fixed;
-    width: 100%;
-    overflow: hidden;
-}
-#player{
-    width: 100%;
-}
-</style>
-
 ![Singing-05](https://user-images.githubusercontent.com/15067112/95196354-e20f0200-0812-11eb-91c3-f53f8d79a535.png)
 
 ## Overview
@@ -56,6 +36,26 @@ Lyrics are annotated in grapheme level with a plain text format. Each syllable m
 <p align="justify">
 CSD dataset is recorded in both English and Korean. Some songs are recorded in both Korean and English and they have same meanings. Those samples are shown as below.
 </p>
+
+<script>
+function pauseOthers(ele) {
+    $("audio").not(ele).each(function (index, audio) {audio.pause();});
+}
+</script>
+
+<style>
+.main-content table {
+    display: inline-table;
+}
+table {
+    table-layout:fixed;
+    width: 100%;
+    overflow: hidden;
+}
+#player{
+    width: 100%;
+}
+</style>
 
 <table>
     <tr>
