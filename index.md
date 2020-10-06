@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Children's Song Dataset for Singing Voice Research
 ---
 
