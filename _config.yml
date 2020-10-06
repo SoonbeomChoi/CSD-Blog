@@ -1,6 +1,7 @@
 title: "CSD: Children's Song Dataset for Singing Voice Research"
 institution: Music and Audio Computing Lab, KAIST
-description: Music and Audio Computing Lab, KAIST
-show_downloads: true
-google_analytics:
+
 theme: jekyll-theme-cayman
+
+github:
+  repository_url: https://github.com/emotiontts/emotiontts_open_db/tree/master/CSD
