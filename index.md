@@ -14,7 +14,7 @@ function pauseOthers(ele) {
     display: inline-table;
 }
 table {
-    table-layout:fixed;
+    table-layout: auto;
     width: 100%;
     overflow: hidden;
 }
@@ -75,7 +75,7 @@ Lyrics are annotated in grapheme level with a plain text format. Each syllable m
 CSD dataset is recorded in both English and Korean. Some songs are recorded in both Korean and English and they have same meanings. Those samples are shown as below.
 </p>
 
-<table>
+<table style="table-layout: fixed;">
     <tr>
         <th> Song </th>
         <th> English </th>
