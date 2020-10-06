@@ -35,14 +35,14 @@ We introduce the Children's Song Dataset (CSD) which contains vocal recordings o
 The dataset is composed of 50 Korean and 50 English songs sung by a Korean female professional pop singer. Each song is recorded in two separate keys, ranging from 3 to 5 semitones, resulting in a total of 200 audio recordings. We collected the children's songs to avoid the possible copyright issues in commercial pop music Each audio recording is paired with a MIDI transcription file and a lyrics annotation file.
 </p>
 
-|Property                 |Description                                      |
-|:---                     |:---                                             |
-|Lanauge (number of songs)| Korean (50), English (50)                       |
-|Number of keys per song  | 2                                               |
-|Pitch range              | F3 - F5                                         |
-|Audio                    | 44.1Hz, 16bit in Wav format                     |
-|MIDI                     | Monophonic MIDI without any expressions         |
-|Lyrics                   | Grapheme level annoation in a plain TXT format  |
+|Property                 |Description                                     |
+|:------------------------|:-----------------------------------------------|
+|Lanauge (number of songs)|Korean (50), English (50)                       |
+|Number of keys per song  |2                                               |
+|Pitch range              |F3 - F5                                         |
+|Audio                    |44.1Hz, 16bit in Wav format                     |
+|MIDI                     |Monophonic MIDI without any expressions         |
+|Lyrics                   |Grapheme level annoation in a plain TXT format  |
 <p align="center">Table.1 The summary of CSD dataset.</p>
 
 ## MIDI and Lyric Annotation
