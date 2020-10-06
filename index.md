@@ -82,32 +82,32 @@ CSD dataset is recorded in both English and Korean. Some songs are recorded in b
         <th> Korean </th>
     </tr>
     <tr>
-        <th> Twinkle Twinkle <br> Little Star </th> 
+        <th> Twinkle Twinkle <br> Little Star <br> 작은 별 </th> 
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/little_star_en.mp3" type="audio/mpeg"></audio></th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/little_star_kr.mp3" type="audio/mpeg"></audio></th>
     </tr>
     <tr>
-        <th> Bingo </th>
+        <th> Bingo <br> 빙고 </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/bingo_en.mp3" type="audio/mpeg"></audio></th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/bingo_kr.mp3" type="audio/mpeg"></audio></th>
     </tr>
     <tr>
-        <th> Rudolph the Red <br> Nosed Reindeer </th>
+        <th> Rudolph the Red <br> Nosed Reindeer <br> 루돌프 </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/rudolph_en.mp3" type="audio/mpeg"></audio></th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/rudolph_kr.mp3" type="audio/mpeg"></audio></th>
     </tr>
     <tr>
-        <th> O Holy Night </th>
+        <th> O Holy Night <br> 오 거룩한 밤 </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/holynight_en.mp3" type="audio/mpeg"></audio></th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/holynight_kr.mp3" type="audio/mpeg"></audio></th>
     </tr>
     <tr>
-        <th> White Christmas </th>
+        <th> White Christmas <br> 화이트 크리스마스 </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/white_xmas_en.mp3" type="audio/mpeg"></audio></th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/white_xmas_kr.mp3" type="audio/mpeg"></audio></th>
     </tr>
     <tr>
-        <th> Butterfly </th>
+        <th> Butterfly <br> 나비야 </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/butterfly_en.mp3" type="audio/mpeg"></audio></th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audio/butterfly_kr.mp3" type="audio/mpeg"></audio></th>
     </tr>
