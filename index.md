@@ -3,6 +3,26 @@ title: "CSD: Children's Song Dataset for Singing Voice Research"
 description: Music and Audio Computing Lab, KAIST
 ---
 
+<script>
+function pauseOthers(ele) {
+    $("audio").not(ele).each(function (index, audio) {audio.pause();});
+}
+</script>
+
+<style>
+.main-content table {
+    display: inline-table;
+}
+table {
+    table-layout:fixed;
+    width: 100%;
+    overflow: hidden;
+}
+#player{
+    width: 100%;
+}
+</style>
+
 ![Singing-05](https://user-images.githubusercontent.com/15067112/95196354-e20f0200-0812-11eb-91c3-f53f8d79a535.png)
 
 ## Overview
@@ -43,15 +63,6 @@ The dataset is composed of 50 Korean and 50 English songs sung by a Korean femal
 </table>
 <p align="center">Table.1 The summary of CSD dataset.</p>
 
-| Property                 | Description                                    |
-|:-------------------------|:-----------------------------------------------|
-| Lanauge (number of songs)| Korean (50), English (50)                      |
-| Number of keys per song  | 2                                              |
-| Pitch range              | F3 - F5                                        |
-| Audio                    | 44.1Hz, 16bit in Wav format                    |
-| MIDI                     | Monophonic MIDI without any expressions        |
-| Lyrics                   | Grapheme level annoation in a plain TXT format |
-
 ## MIDI and Lyric Annotation
 <p align="justify">
 The MIDI data consists of monophonic notes. Each note contains onset and offset times which were manually fine-tuned along with the corresponding syllable. We annotated the note onset and duration with consistent guide lines throught various expressions without any expression data or control change messages.
@@ -63,26 +74,6 @@ Lyrics are annotated in grapheme level with a plain text format. Each syllable m
 <p align="justify">
 CSD dataset is recorded in both English and Korean. Some songs are recorded in both Korean and English and they have same meanings. Those samples are shown as below.
 </p>
-
-<script>
-function pauseOthers(ele) {
-    $("audio").not(ele).each(function (index, audio) {audio.pause();});
-}
-</script>
-
-<style>
-.main-content table {
-    display: inline-table;
-}
-table {
-    table-layout:fixed;
-    width: 100%;
-    overflow: hidden;
-}
-#player{
-    width: 100%;
-}
-</style>
 
 <table>
     <tr>
