@@ -1,3 +1,27 @@
+---
+title: "CSD: Children's Song Dataset for Singing Voice Research"
+---
+
+<script>
+function pauseOthers(ele) {
+    $("audio").not(ele).each(function (index, audio) {audio.pause();});
+}
+</script>
+
+<style>
+.main-content table {
+    display: inline-table;
+}
+table {
+    table-layout:fixed;
+    width: 100%;
+    overflow: hidden;
+}
+#player{
+    width: 100%;
+}
+</style>
+
 ## Overview
 <p align="justify">
 We introduce the Children's Song Dataset (CSD) which contains vocal recordings of 100 children's songs in Korean or English. The audio recordings are precisely aligned with the MIDI transcriptions and lyrics annotations and so we expect that the dataset can be useful for various singing voice analysis and synthesis tasks. 
