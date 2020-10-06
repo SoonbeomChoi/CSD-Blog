@@ -74,7 +74,7 @@ Lyrics are annotated in grapheme level with a plain text format. Each syllable m
 
 ## Samples
 <p align="justify">
-CSD dataset is recorded in both English and Korean. Some songs are recorded in both Korean and English and they have same meanings. Those samples are shown as below.
+CSD dataset is recorded in both English and Korean. Some songs are recorded in both Korean and English with identical lyrics. Those samples are shown as below.
 </p>
 
 <table style="table-layout: fixed;">
