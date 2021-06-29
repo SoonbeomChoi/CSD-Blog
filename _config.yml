@@ -3,7 +3,7 @@ description: Music and Audio Computing Lab, KAIST
 
 theme: jekyll-theme-cayman
 
-official_url: https://soonbeomchoi.github.io/CSD-Blog/
+official_url: https://zenodo.org/record/4785016#.YLYW6P0QtTa
 
 github:
-  repository_url: https://github.com/emotiontts/emotiontts_open_db/tree/master/CSD
+  repository_url: https://github.com/emotiontts/emotiontts_open_db/tree/master/Dataset/CSD

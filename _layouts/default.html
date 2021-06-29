@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+  <meta http-equiv="refresh" content="0; URL=https://zenodo.org/record/4785016#.YLYW6P0QtTa">
   <head>
 
     {% if site.google_analytics %}
@@ -25,13 +26,9 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ site.official_url }}" class="btn">Official Page Link</a>
+      <a href="{{ site.official_url }}" class="btn">CSD Dataset Link</a>
       {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">CSD Dataset Link</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+        <a href="{{ site.github.repository_url }}" class="btn">Github Link</a>
       {% endif %}
     </header>
 
